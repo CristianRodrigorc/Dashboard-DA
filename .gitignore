@@ -40,3 +40,31 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Additional ignores
+
+# Environment files
+.env
+.env.*
+
+# Node logs
+yarn-debug.log*
+pnpm-debug.log*
+
+# Angular
+/.angular/
+
+# Caches
+.eslintcache
+
+# IDE/workspace
+*.code-workspace
+*.iml
+
+# Cypress (if used)
+cypress/videos/
+cypress/screenshots/
+
+# Storybook (if used)
+/storybook-static/
